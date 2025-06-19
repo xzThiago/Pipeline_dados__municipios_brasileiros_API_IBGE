@@ -63,17 +63,17 @@ Conecte-se ao seu servidor MariaDB/MySQL e execute o seguinte comando:
 
 *CREATE DATABASE IF NOT EXISTS engenharia_dados CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;*
 
--Crie o arquivo de credenciais (.env):
+- Crie o arquivo de credenciais (.env):
 
 Crie um arquivo chamado .env na raiz do projeto e preencha com suas credenciais. Nunca suba este arquivo para um repositório Git.
 
 # .env
----
+```
 DB_USER="seu_usuario_do_banco"
 DB_PASSWORD="sua_senha_do_banco"
 DB_HOST="localhost"
 DB_NAME="engenharia_dados"
----
+```
 
 *Crie o arquivo de enriquecimento (regioes_enriquecimento.csv):*
 
