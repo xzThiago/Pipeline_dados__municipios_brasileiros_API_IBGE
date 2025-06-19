@@ -52,10 +52,10 @@ Siga os passos abaixo para rodar a pipeline em seu ambiente local.
 ```bash
 git clone https://github.com/xzThiago/Pipeline_dados__municipios_brasileiros_API_IBGE.git
 cd projeto-etl-ibge
-```
+
 * Instale as dependências Python: *
 pip install requests pandas sqlalchemy mysql-connector-python python-dotenv
-
+```
 ## Configuração do Ambiente
 - Crie o banco de dados:
 
