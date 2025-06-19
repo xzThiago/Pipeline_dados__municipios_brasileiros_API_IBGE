@@ -27,13 +27,13 @@ A pipeline é executada em uma sequência única e lógica, onde cada etapa prep
 ## Estrutura do Projeto
 
 Para executar, seu diretório deve conter os seguintes arquivos:
-
+```
 projeto-etl-ibge/
 ├── .env # Arquivo de credenciais do banco de dados (NÃO versionar)
 ├── projeto_etl_ibge.py # Script principal da pipeline
 ├── regioes_enriquecimento.csv # Arquivo CSV para enriquecimento dos dados
 └── README.md # Este arquivo
-
+```
 
 ## Como Configurar e Executar
 
